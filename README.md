@@ -1,13 +1,13 @@
 # SpecialForces
-![Logo](https://logosbynick.com/wp-content/uploads/2018/03/final-logo-example.png)
-Special Forces is healthcare solution for Ministry of National Defense.
+![Logo](https://logosbynick.com/wp-content/uploads/2018/03/final-logo-example.png)</br>
+Special Forces is healthcare solution for Ministry of National Defense.</br>
 스페셜포스는 대한민국 국방부 국군 장병들을 위한 헬스케어 솔루션입니다.
 
 ## 1. Intro
 [![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)
 
-### Service
-### Management
+### (1)Service
+### (2)Management
 
 ## 2. StoryBoard
 
@@ -15,10 +15,10 @@ Special Forces is healthcare solution for Ministry of National Defense.
 
 ## 4. Technique Used
 
-### Web
-### App
-### Server
-### IoT
+### (1)Web
+### (2)App
+### (3)Server
+### (4)IoT
 
 ## 5. Installation Process (설치 안내)
 
