@@ -18,7 +18,7 @@ SpecialWarror is the team that create SpecialForces. The team consist of IoT dev
 스페셜포스의 웹은 간부전용으로 병사들의 운동량과 해당병사의 수면시간, 심박동 측정기록 등을 확인하여 병사들의 건강관리를 할 수 있습니다.
 
 ## 2. StoryBoard (기능설계)
-- 구글독스
+- <a href = "https://docs.google.com/presentation/d/1y2Pu0RgSUVKd3x4ULOtYEjo13R1m0j6FjGWLmiCoR_Y/edit?usp=sharing">구글독스 화면정의서</a>
 
 ## 3. Prerequisites (컴퓨터구성/필수조건 안내)
 - 안드로이드 버전
