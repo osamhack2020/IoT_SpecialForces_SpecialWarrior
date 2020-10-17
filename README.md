@@ -55,9 +55,9 @@ SpecialWarror is the team that create SpecialForces. The team consist of IoT dev
 
 
 ## 7. Team Information (팀 정보)
-- Park SungSoo (skyinbss@gmail.com), Github Id: <a href = "https://github.com/Moerai">KrToTo</a>
-- Park SeongCheol (gorae02@gmail.com), Github Id: <a href = "https://github.com/goraegori">goraegori</a>
-- Kang Chan (koxx1107@gmail.com), Github Id: <a href = "https://github.com/LieutenantKang">Lieutenant Kang</a>
+- <b>PM & IoT Developer</b> Park SungSoo (skyinbss@gmail.com), Github Id: <a href = "https://github.com/Moerai">KrToTo</a>
+- <b>Web & Server Developer</b> Park SeongCheol (gorae02@gmail.com), Github Id: <a href = "https://github.com/goraegori">goraegori</a>
+- <b>Application Developer</b> Kang Chan (koxx1107@gmail.com), Github Id: <a href = "https://github.com/LieutenantKang">Lieutenant Kang</a>
 
 ## 8. Copyleft / End User License(저작권 및 사용권 정보)
  * [MIT](https://github.com/osam2020-WEB/Sample-ProjectName-TeamName/blob/master/license.md)
