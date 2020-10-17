@@ -31,6 +31,7 @@ void loop()
       // when serial port available
       while(Serial.available() > 0){
         if(ultrasonic.Ranging(CM) < 12){
+          // counting push-up
           count =+ 1;
           lcd.print("count : " + count)
           delay(200);
@@ -45,6 +46,8 @@ void loop()
         	break;
         }
       }
+      // initialize count
+      count = 0;
       // finish sound
       for(int i = 0; i < numTones; i++){
         tone(speakerPin, tones[i]);
