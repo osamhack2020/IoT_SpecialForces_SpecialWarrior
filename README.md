@@ -22,7 +22,7 @@ SpecialWarror is the team that create SpecialForces. The team consist of IoT dev
 - <a href = "https://github.com/orgs/SpecailForces/projects/1">git project KanBanBoard 1</a>
 - <a href = "https://github.com/osamhack2020/App_SpecialForces_SpecialWarrior/projects/2"> git project KanBanBoard 2</a>
 - <a href = "https://calendar.google.com/calendar/u/0?cid=OG1yZ3FhYTI5MTMwN2FldTZucDdvbXEwcmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"> 특급전사 팀 공개 일정 (google calendar)</a>
--<a href = "https://www.erdcloud.com/d/x3pmnS3jFMrxiPcaW"> DB ERD </a>
+- <a href = "https://www.erdcloud.com/d/x3pmnS3jFMrxiPcaW"> DB ERD</a>
 
 ## 3. Prerequisites (컴퓨터구성/필수조건 안내)
 - 안드로이드 버전
