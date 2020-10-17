@@ -19,6 +19,9 @@ SpecialWarror is the team that create SpecialForces. The team consist of IoT dev
 
 ## 2. StoryBoard (기능설계)
 - <a href = "https://docs.google.com/presentation/d/1y2Pu0RgSUVKd3x4ULOtYEjo13R1m0j6FjGWLmiCoR_Y/edit?usp=sharing">Web/App화면설계안</a>
+- <a href = "https://github.com/orgs/SpecailForces/projects/1">git project KanBanBoard 1</a>
+- <a href = "https://github.com/osamhack2020/App_SpecialForces_SpecialWarrior/projects/2"> git project KanBanBoard 2</a>
+- <a href = "https://calendar.google.com/calendar/u/0?cid=OG1yZ3FhYTI5MTMwN2FldTZucDdvbXEwcmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"> 특급전사 팀 공개 일정 (google calendar)</a>
 - DB ERD
 
 ## 3. Prerequisites (컴퓨터구성/필수조건 안내)
