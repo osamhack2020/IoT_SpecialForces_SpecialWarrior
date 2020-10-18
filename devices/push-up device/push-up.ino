@@ -1,7 +1,7 @@
 // push-up device
 #include <LiquidCrystal.h>
-# include <Ultrasonic.h>
-Ultrasonic ultrasonic(9,8); // (Trig PIN,Echo PIN)
+int trigPin = 9;
+int echoPin = 8;
 const int rs = 7, en = 6, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 int btnPin 13;
@@ -15,7 +15,9 @@ void setup() {
   	// initialize the serial communications
     Serial.begin(9600);
   	// initialize the button pin
-	pinMode(btnPin, INPUT_PULLUP);
+  	pinMode(btnPin, INPUT_PULLUP);
+    pinMode(trigPin, OUTPUT);
+    pinMode(echoPin, INPUT);
 }
 void loop()
 {
@@ -30,13 +32,23 @@ void loop()
   	if (digitalRead(btnPin) == LOW){
       // when serial port available
       while(Serial.available() > 0){
-        if(ultrasonic.Ranging(CM) < 12){
-          // counting push-up
+        // use ultrasonic
+        digitalWrite(trig, LOW);
+        digitalWrite(echo, LOW);
+        delayMicroseconds(2);
+        digitalWrite(trig, HIGH);
+        delayMicroseconds(10);
+        digitalWrite(trig, LOW);
+        // store time
+        unsigned long duration = pulseIn(echoPin, HIGH); 
+        // calculate distance
+        float distance = ((float)(340 * duration) / 10000) / 2;  
+        // counting push-up
+        if(distance < 12){
           count =+ 1;
           lcd.print("count : " + count)
           delay(200);
         }
-        
         // clear the screen
         lcd.clear();
         lcd.setCursor(0, 1);
