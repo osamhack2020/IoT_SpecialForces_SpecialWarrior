@@ -26,7 +26,9 @@ SpecialWarror is the team that create SpecialForces. The team consist of IoT dev
 
 ## 3. Prerequisites (컴퓨터구성/필수조건 안내)
 - 안드로이드 버전
+
 - 웹브라우저 제한사항
+
 - 아두이노 장치 구성
 
 
@@ -46,18 +48,42 @@ SpecialWarror is the team that create SpecialForces. The team consist of IoT dev
 
 ## 5. Installation Process (설치 안내)
 
-## 6. Getting Started (프로젝트 사용법)
-- 아두이노 장치 세팅 방법
+### app
 
-```
-아두이노 기기를 
-```
+### IoT(클릭시 해당 기기 문서로 이동)
+- 팔굽혀펴기 체력 측정장치
+- 윗몸일으키기 체력 측정장치
+- 뜀뛰기 체력 측정장치
+- 렛 폴 다운 운동 측정장치
+- 레그 익스프레스 운동 측정장치
+
+### web
+
+## 6. Getting Started (프로젝트 사용법)
+### app
+<병사용 Service>
+
+### IoT
+<운동기구>
+
+1. 하고 싶은 운동기구에 헨드폰을 올려 둔다.
+2. 운동을 시작한다.
+3. 어플리케이션에 해당 운동 내역이 자동으로 저장된다.
+
+### web
+
+<간부용 BackOffice>
+
+1. <a href = "https://osamhack2020.github.io/Web_SpecialForces_SpecialWarrior
+"> 해당 사이트 </a> 접속
+2. 부대 소속 및 군번 개인정보 입력 후 회원가입
+3. 
 
 
 ## 7. Team Information (팀 정보)
-- <b>PM & IoT Developer</b> Park SungSoo (skyinbss@gmail.com), Github Id: <a href = "https://github.com/Moerai">KrToTo</a>
-- <b>Web & Server Developer</b> Park SeongCheol (gorae02@gmail.com), Github Id: <a href = "https://github.com/goraegori">goraegori</a>
-- <b>Application Developer</b> Kang Chan (koxx1107@gmail.com), Github Id: <a href = "https://github.com/LieutenantKang">Lieutenant Kang</a>
+- <b>PM & IoT</b> Park SungSoo (skyinbss@gmail.com), Github Id: <a href = "https://github.com/Moerai">KrToTo</a>
+- <b>Web & Server</b> Park SeongCheol (gorae02@gmail.com), Github Id: <a href = "https://github.com/goraegori">goraegori</a>
+- <b>Application</b> Kang Chan (koxx1107@gmail.com), Github Id: <a href = "https://github.com/LieutenantKang">Lieutenant Kang</a>
 
 ## 8. Copyleft / End User License(저작권 및 사용권 정보)
  * [MIT](https://github.com/osam2020-WEB/Sample-ProjectName-TeamName/blob/master/license.md)
