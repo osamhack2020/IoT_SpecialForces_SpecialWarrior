@@ -1,5 +1,8 @@
 // push-up device
 #include <LiquidCrystal.h>
+#include <ThreadController.h>
+#include <Thread.h>
+
 int trigPin = 9;
 int echoPin = 8;
 const int rs = 7, en = 6, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
@@ -9,18 +12,8 @@ int speakerPin = 12; //buzzer
 int numTones = 7;
 int count = 0;
 int tones = [392,392,440,440,392,392,329]; //GGAAGGE
-void setup() {
-  	// set up the LCD's number of columns and rows
-  	lcd.begin(16, 2);
-  	// initialize the serial communications
-    Serial.begin(9600);
-  	// initialize the button pin
-  	pinMode(btnPin, INPUT_PULLUP);
-    pinMode(trigPin, OUTPUT);
-    pinMode(echoPin, INPUT);
-}
-void loop()
-{
+
+void btnCallback(){
   // when characters arrive over the serial port...
   if(Serial.available()){
     // wait a bit for the entire message to arrive
@@ -53,10 +46,6 @@ void loop()
         lcd.clear();
         lcd.setCursor(0, 1);
         sec = millis() / 1000;
-        lcd.print("second : " + sec);
-        if(sec == 120){
-        	break;
-        }
       }
       // initialize count
       count = 0;
@@ -69,4 +58,30 @@ void loop()
       delay(1000);
     }
   }
+}
+void timerCallback{
+  lcd.print("second : " + sec);
+      if(sec == 120){
+        // stop
+      }
+}
+
+void setup() {
+  // set up the LCD's number of columns and rows
+  lcd.begin(16, 2);
+  // initialize the serial communications
+  Serial.begin(9600);
+  // initialize the button pin
+  pinMode(btnPin, INPUT_PULLUP);
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  //thread
+  myThread_btn.onRun(btnCallback);
+  myThread_timer.onRun(timerCallback);
+  controll.add(&myThread_btn);
+  controll.add(&myThread_timer);
+}
+void loop()
+{
+  controll.run(); //essential to use thread
 }
