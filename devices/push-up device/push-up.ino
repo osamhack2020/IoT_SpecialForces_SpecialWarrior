@@ -23,7 +23,9 @@ Thread myThread_timer = Thread();
 // counting flag
 boolean flag = false; 
 // Timer
-int sec = 0;
+float startSec = 0;
+float pushSec = 0;
+int twomin = 0;
 void btnCallback(){
   // when characters arrive over the serial port...
   if(Serial.available()){
@@ -31,13 +33,19 @@ void btnCallback(){
     delay(100);
     // clear the screen
     lcd.clear();
-    
     // when btnStart sign low
   	if (digitalRead(btnStart) == LOW){
+      // push button, timer start
+      pushSec = millis()
       // when serial port available
       while(Serial.available() > 0){
         // use ultrasonic sensor
-        
+        digitalWrite(trig, LOW);
+        digitalWrite(echo, LOW);
+        delayMicroseconds(2);
+        digitalWrite(trig, HIGH);
+        delayMicroseconds(10);
+        digitalWrite(trig, LOW);
         // store time
         unsigned long duration = pulseIn(echoPin, HIGH); 
         // calculate distance
@@ -70,12 +78,15 @@ void btnCallback(){
   }
 }
 void timerCallback{
-  sec = int(millis() / 1000);
-  lcd.print("second : " + sec);
-      if(sec == 120){
-        // Restart On
-        digitalWrite(btnReset, LOW);
-      }
+  startSec = millis();
+  twomin = int(startSec - pushSec)/1000;
+  if(pushSec != 0){
+    lcd.print("second : " + twomin);
+    if(startSec == 120){
+      // Restart On
+      digitalWrite(btnReset, LOW);
+    }
+  }
 }
 
 void setup() {
@@ -99,13 +110,4 @@ void setup() {
 void loop()
 {
   controll.run(); //essential to use thread
-}
-
-void ultrasonic(){
-  digitalWrite(trig, LOW);
-  digitalWrite(echo, LOW);
-  delayMicroseconds(2);
-  digitalWrite(trig, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trig, LOW);
 }
