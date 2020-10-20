@@ -3,16 +3,24 @@
 #include <ThreadController.h>
 #include <Thread.h>
 
+// LiquidCrystal LCD
 int trigPin = 9;
 int echoPin = 8;
 const int rs = 7, en = 6, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
+// Button
 int btnPin 13;
-int speakerPin = 12; //buzzer
+// Buzzer
+int speakerPin = 12;
 int numTones = 7;
 int count = 0;
-int tones = [392,392,440,440,392,392,329]; //GGAAGGE
-boolean flag = false; // counting flag
+int tones = [392,392,440,440,392,392,329]; //GGAAGGE 학교종이 땡땡땡
+// Thread 
+ThreadController controll = ThreadController();
+Thread myThread_btn = Thread();
+Thread myThread_timer = Thread();
+// counting flag
+boolean flag = false; 
 
 void btnCallback(){
   // when characters arrive over the serial port...
@@ -27,12 +35,7 @@ void btnCallback(){
       // when serial port available
       while(Serial.available() > 0){
         // use ultrasonic sensor
-        digitalWrite(trig, LOW);
-        digitalWrite(echo, LOW);
-        delayMicroseconds(2);
-        digitalWrite(trig, HIGH);
-        delayMicroseconds(10);
-        digitalWrite(trig, LOW);
+        
         // store time
         unsigned long duration = pulseIn(echoPin, HIGH); 
         // calculate distance
@@ -90,4 +93,13 @@ void setup() {
 void loop()
 {
   controll.run(); //essential to use thread
+}
+
+void ultrasonic(){
+  digitalWrite(trig, LOW);
+  digitalWrite(echo, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trig, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trig, LOW);
 }
