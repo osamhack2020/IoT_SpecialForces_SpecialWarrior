@@ -12,6 +12,7 @@ int speakerPin = 12; //buzzer
 int numTones = 7;
 int count = 0;
 int tones = [392,392,440,440,392,392,329]; //GGAAGGE
+boolean flag = false; // counting flag
 
 void btnCallback(){
   // when characters arrive over the serial port...
@@ -25,7 +26,7 @@ void btnCallback(){
   	if (digitalRead(btnPin) == LOW){
       // when serial port available
       while(Serial.available() > 0){
-        // use ultrasonic
+        // use ultrasonic sensor
         digitalWrite(trig, LOW);
         digitalWrite(echo, LOW);
         delayMicroseconds(2);
@@ -37,10 +38,15 @@ void btnCallback(){
         // calculate distance
         float distance = ((float)(340 * duration) / 10000) / 2;  
         // counting push-up
-        if(distance < 12){
+        if(distance < 12 && flag == false){
           count =+ 1;
           lcd.print("count : " + count)
-          delay(200);
+          flag = true;
+          delay(100);
+        }
+        if(distance > 12 && flag == true){
+          flag = false;
+          delay(100);
         }
         // clear the screen
         lcd.clear();
