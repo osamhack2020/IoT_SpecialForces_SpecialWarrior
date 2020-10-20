@@ -9,7 +9,7 @@ int echoPin = 8;
 const int rs = 7, en = 6, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 // Button
-int btnPin 13;
+int btnStart 13;
 // Buzzer
 int speakerPin = 12;
 int numTones = 7;
@@ -30,8 +30,8 @@ void btnCallback(){
     // clear the screen
     lcd.clear();
     
-    // when btnPin sign low
-  	if (digitalRead(btnPin) == LOW){
+    // when btnStart sign low
+  	if (digitalRead(btnStart) == LOW){
       // when serial port available
       while(Serial.available() > 0){
         // use ultrasonic sensor
@@ -81,7 +81,7 @@ void setup() {
   // initialize the serial communications
   Serial.begin(9600);
   // initialize the button pin
-  pinMode(btnPin, INPUT_PULLUP);
+  pinMode(btnStart, INPUT_PULLUP);
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   //thread
