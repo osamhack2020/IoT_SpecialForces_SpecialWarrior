@@ -63,12 +63,19 @@ SpecialWarror is the team that create SpecialForces. The team consist of IoT dev
 ### app
 <병사용 Service>
 
+
 ### IoT
 <운동기구>
-
 1. 하고 싶은 운동기구에 헨드폰을 올려 둔다.
 2. 운동을 시작한다.
 3. 어플리케이션에 해당 운동 내역이 자동으로 저장된다.
+
+<체력 측정 기구>
+1. 측정하고 싶은 운동기구에 헨드폰을 올려 둔다.
+2. 버튼을 누른다.
+3. 부저의 알람이 울릴 때까지 운동을 실시한다.
+4. 시간과 운동 현황은 운동기구에 달려있는 LCD를 통해 볼 수 있다.
+5. 부저가 울리면 어플리케이션에 결과가 자동으로 측정된다.
 
 ### web
 
@@ -77,7 +84,11 @@ SpecialWarror is the team that create SpecialForces. The team consist of IoT dev
 1. <a href = "https://osamhack2020.github.io/Web_SpecialForces_SpecialWarrior
 "> 해당 사이트 </a> 접속
 2. 부대 소속 및 군번 개인정보 입력 후 회원가입
-3. 
+3. 병사관리 텝에서 병사들의 건강상테 리스트를 볼 수 있으며 클릭시 상세 보기가 주어짐.
+4. 모아보기 페이지는 모든 병사들의 운동별 현황을 그래프를 통해 한 번에 파악 가능.
+5. 병사현황 페이지를 이용하면 특급전사 및 체력측정 기준에 합격자 인원을 쉽게 파악할 수 있음.
+6. FAQ를 통해 Back Office의 모르는 사항을 빠르게 찾아볼 수 있음.
+7. 공지사항 페이지에서 공지를 만들어서 병사들이 사용하는 어플리케이션에 공지를 보낼 수 있음.
 
 
 ## 7. Team Information (팀 정보)
