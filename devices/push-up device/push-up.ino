@@ -10,6 +10,7 @@ const int rs = 7, en = 6, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 // Button
 int btnStart 13;
+int btnReset 11;
 // Buzzer
 int speakerPin = 12;
 int numTones = 7;
@@ -21,7 +22,8 @@ Thread myThread_btn = Thread();
 Thread myThread_timer = Thread();
 // counting flag
 boolean flag = false; 
-
+// Timer
+int sec = 0;
 void btnCallback(){
   // when characters arrive over the serial port...
   if(Serial.available()){
@@ -54,7 +56,6 @@ void btnCallback(){
         // clear the screen
         lcd.clear();
         lcd.setCursor(0, 1);
-        sec = millis() / 1000;
       }
       // initialize count
       count = 0;
@@ -69,19 +70,24 @@ void btnCallback(){
   }
 }
 void timerCallback{
+  sec = int(millis() / 1000);
   lcd.print("second : " + sec);
       if(sec == 120){
-        // stop
+        // Restart On
+        digitalWrite(btnReset, LOW);
       }
 }
 
 void setup() {
+  // Restart Off
+  digitalWrite(btnReset, HIGH);
   // set up the LCD's number of columns and rows
   lcd.begin(16, 2);
   // initialize the serial communications
   Serial.begin(9600);
   // initialize the button pin
   pinMode(btnStart, INPUT_PULLUP);
+  pinMode(btnReset, OUTPUT);
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   //thread
