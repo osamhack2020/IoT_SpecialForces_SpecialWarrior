@@ -97,4 +97,9 @@ SpecialWarror is the team that create SpecialForces. The team consist of IoT dev
 - <b>Application</b> Kang Chan (koxx1107@gmail.com), Github Id: <a href = "https://github.com/LieutenantKang">Lieutenant Kang</a>
 
 ## 8. Copyleft / End User License(저작권 및 사용권 정보)
- * [MIT](https://github.com/osam2020-WEB/Sample-ProjectName-TeamName/blob/master/license.md)
+This work is dual-licensed under * [MIT](https://github.com/SpecailForces/SpecialForces-IoT/blob/master/MIT_license.md) AND * [Apache License 2.0](https://github.com/SpecailForces/SpecialForces-IoT/blob/master/Apache_license.md).</br>
+You must comply with all this licenses if you use this work.</br>
+
+
+
+//SpecialForces Organization으로 되어 있는 URL 모두 편집할 것!!
