@@ -15,8 +15,8 @@ int btnReset 11;
 int speakerPin = 12;
 int numTones = 7;
 int count = 0;
-int tones = [392,392,440,440,392,392,329]; //GGAAGGE 학교종이 땡땡땡
-// Thread 
+int tones = [392,392,440,440,392,392,329]; //솔솔라라솔솔미 학교종이 땡땡땡
+// Thread
 ThreadController controll = ThreadController();
 Thread myThread_btn = Thread();
 Thread myThread_timer = Thread();
@@ -107,7 +107,6 @@ void setup() {
   controll.add(&myThread_btn);
   controll.add(&myThread_timer);
 }
-void loop()
-{
+void loop(){
   controll.run(); //essential to use thread
 }
