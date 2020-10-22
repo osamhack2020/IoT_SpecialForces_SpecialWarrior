@@ -40,22 +40,22 @@ SpecialWarror is the team that create SpecialForces. The team consist of IoT dev
 ### (3)Server
 
 ### (4)IoT Device(클릭시 해당 기기 문서로 이동)
-- 팔굽혀펴기 체력 측정장치
-- 윗몸일으키기 체력 측정장치
-- 뜀뛰기 체력 측정장치
-- 렛 폴 다운 운동 측정장치
-- 레그 익스프레스 운동 측정장치
+- <a href = "https://github.com/SpecailForces/SpecialForces-IoT/tree/master/devices/push_up#specialforces-push-up-auto-measuring-device">팔굽혀펴기 체력 측정장치</a>
+- <a href = "https://github.com/SpecailForces/SpecialForces-IoT/tree/master/devices/sit_up#specialforces-sit-up-auto-measuring-device">윗몸일으키기 체력 측정장치</a>
+- <a href = "https://github.com/SpecailForces/SpecialForces-IoT/tree/master/devices/run#specialforces-running-auto-measuring-device">뜀뛰기 체력 측정장치</a>
+- <a href = "https://github.com/SpecailForces/SpecialForces-IoT/tree/master/devices/lat_pull_down#specialforces-lat-pull-down-auto-measuring-device">렛 폴 다운 운동 측정장치</a>
+- <a href = "https://github.com/SpecailForces/SpecialForces-IoT/tree/master/devices/leg_press#specialforces-leg-press-auto-measuring-device">레그 프레스 운동 측정장치</a>
 
 ## 5. Installation Process (설치 안내)
 
 ### app
 
 ### IoT(클릭시 해당 기기 문서로 이동)
-- 팔굽혀펴기 체력 측정장치
-- 윗몸일으키기 체력 측정장치
-- 뜀뛰기 체력 측정장치
-- 렛 폴 다운 운동 측정장치
-- 레그 익스프레스 운동 측정장치
+- <a href = "https://github.com/SpecailForces/SpecialForces-IoT/tree/master/devices/push_up#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">팔굽혀펴기 체력 측정장치</a>
+- <a href = "https://github.com/SpecailForces/SpecialForces-IoT/tree/master/devices/sit_up#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">윗몸일으키기 체력 측정장치</a>
+- <a href = "https://github.com/SpecailForces/SpecialForces-IoT/tree/master/devices/run#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">뜀뛰기 체력 측정장치</a>
+- <a href = "https://github.com/SpecailForces/SpecialForces-IoT/tree/master/devices/lat_pull_down#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">렛 폴 다운 운동 측정장치</a>
+- <a href = "https://github.com/SpecailForces/SpecialForces-IoT/tree/master/devices/leg_press#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">레그 프레스 운동 측정장치</a>
 
 ### web
 
