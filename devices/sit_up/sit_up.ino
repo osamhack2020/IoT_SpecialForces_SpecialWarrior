@@ -1,5 +1,4 @@
 // sit-up device
-#include <LiquidCrystal.h>
 #include <ThreadController.h>
 #include <Thread.h>
 #include <Adafruit_ILI9340.h>
@@ -7,18 +6,6 @@
 #include <Adafruit_PN532.h>
 #include <SPI.h>
 #include <Wire.h>
-
-// NFC communication
- #define PN532_SCK (A1)
- #define PN532_MISO (A2)
- #define PN532_MOSI (A3)
- #define PN532_SS (A4)
-// #define PN532_IRQ (A0)
-// #define PN532_RESET (A5)
-Adafruit_PN532 nfc(PN532_SCK, PN532_MISO, PN532_MOSI, PN532_SS);
-#if defined(ARDUINO_ARCH_SAMD)
-   #define Serial SerialUSB
-#endif
 
 // Adafruit TFT LCD 2.2 Inch 320 * 240
 #define _sclk 7
@@ -56,7 +43,30 @@ float startSec = 0;
 float pushSec = 0;
 int twomin = 0;
 
-uint8_t message[2];
+// NFC communication
+ #define PN532_SCK (A1)
+ #define PN532_MISO (A2)
+ #define PN532_MOSI (A3)
+ #define PN532_SS (A4)
+// #define PN532_IRQ (A0)
+// #define PN532_RESET (A5)
+Adafruit_PN532 nfc(PN532_SCK, PN532_MISO, PN532_MOSI, PN532_SS);
+#if defined(ARDUINO_ARCH_SAMD)
+   #define Serial SerialUSB
+#endif
+
+// NFC message
+// [type, exercise, data]
+// type : 0(exam), 1(basic exercise)
+// exam
+// exercise(int) : 0(push-up), 1(sit-up), 2(treadmill)
+// data(int) : push-up, sit-up : count
+//        treadmill : time ([ex] 1030 : 10min 30sec)
+// basic exercise
+// exercise(int) : 0(lat-pull-down), 1(leg-press), 2(pulse)
+// data(int) : lat-pull-down, leg-press : weight (1 data to 1 count)
+//        pulse : heart-rate
+uint8_t message[3];
 uint8_t send;
 uint8_t sendLength;
 uint8_t response;
@@ -88,7 +98,7 @@ void btnCallback(){
     }
   }
 }
-void timerCallback{
+void timerCallback(){
   startSec = millis();
   twomin = int(startSec - pushSec)/1000;
   if(pushSec != 0){
@@ -107,11 +117,12 @@ void timerCallback{
     if(twomin == 120){
       // NFC communication
       if(nfc.inListPassiveTarget()){
-        while (true){
-          message[0] = 1;
-          message[1] = count;
+        for (int i = 0; i <= sizeof(message); i++){
+          message[0] = 0;
+          message[1] = 1;
+          message[2] = count;
           uint8_t sendLength = sizeof(message);
-          nfc.inDataExchange(message, &sendLength, message, sizeof(message)))
+          nfc.inDataExchange(message[i], &sendLength, message, sizeof(message)))
           }
         }
       }
@@ -156,8 +167,6 @@ void setup() {
   tft.setRotation(3);
   tft.fillScreen(ILI9340_BLACK);
   speedText();
-  // Initialize the serial communications
-  Serial.begin(9600);
   // Initialize the button pin
   pinMode(btnStart, INPUT_PULLUP);
   pinMode(btnReset, OUTPUT);
