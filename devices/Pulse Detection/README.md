@@ -6,6 +6,7 @@
 >The Special Force Heart Rate Monitor measures your heart rate when you place your finger on it.
 
 ## Circuit (회로도)
+![Pulse Sensor Circuit](https://user-images.githubusercontent.com/26067127/97309515-77973200-18a5-11eb-9201-af14528cf9b5.png)
 </br>
 
 ## Software Diagram(소프트웨어 다이어그램)
