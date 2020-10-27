@@ -42,7 +42,7 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
     - Safari 8 이상
 
 - 아두이노 장치 구성
-    - Arduino Micro
+    - Arduino Nano(아두이노 나노)
     - HC-SR04(초음파센서)
     - PN532(NFC모듈)
     - ILI9340(TFT-LCD
@@ -52,7 +52,7 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
     - HX711(Load Sell Amplifier)
     - RJ45(Load Sensor Combinator)
     - Reed switch(리드스위치)
-    - WAT-S019(심박동센서)
+    - PulseSensor(심박동센서)
 
 ## 4. Technique Used (기술스택)
 ### (1)Back Office
