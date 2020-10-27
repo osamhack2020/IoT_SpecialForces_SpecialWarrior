@@ -2,7 +2,6 @@
 #include <ThreadController.h>
 #include <Thread.h>
 #include <Adafruit_ILI9340.h>
-#include <SoftwareSerial.h>
 #include <Adafruit_PN532.h>
 #include <SPI.h>
 #include <Wire.h>
@@ -21,6 +20,15 @@ int tones = [392,392,440,440,392,392,329];void setup(){
 ThreadController controll = ThreadController();
 Thread myThread_btn = Thread();
 Thread myThread_timer = Thread();
+
+// Adafruit TFT LCD 2.2 Inch 320 * 240
+#define _sclk 7
+#define _miso 6
+#define _mosi 5
+#define _cs 4
+#define _dc 3
+#define _rst 2
+Adafruit_ILI9340 tft = Adafruit_ILI9340(_cs, _dc, _rst);
 
 // NFC communication
  #define PN532_SCK (A1)
@@ -105,8 +113,10 @@ void timerCallback(){
     tft.setTextColor(ILI9340_WHITE, ILI9340_BLACK);
     tft.setTextSize(4);
     tft.print("TIME : ");
-    tft.print(timer);
-    tft.print(" sec");
+    tft.print(tMin);
+    tft.print("min");
+    tft.print(tSec);
+    tft.print("sec");
 }
 void setup() {
     // Change analog to digital
