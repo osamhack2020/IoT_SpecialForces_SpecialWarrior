@@ -87,7 +87,7 @@ void btnCallback(){
         // calculate distance
         float distance = ((float)(340 * duration) / 10000) / 2;  
         // counting push-up
-        if(distance < 12 && flag == false){
+        if(distance =< 12 && flag == false){
           count =+ 1;
           flag = true;
         }
@@ -148,12 +148,10 @@ void setup() {
   while (!Serial);// for Leonardo/Micro/Zero
   #endif
   Serial.begin(115200);
-  Serial.print("\r\n\r\nPN532 NFC Start");
   nfc.begin();
   uint32_t versiondata = nfc.getFirmwareVersion();
   if (! versiondata)
   {
-      Serial.print("\r\nDidn't find PN53x board");
       while (1); // halt
   }
  // the default behaviour of the PN532.
