@@ -3,8 +3,23 @@
 #include <ThreadController.h>
 #include <Thread.h>
 #include <Adafruit_ILI9340.h>
+#include <SoftwareSerial.h>
+#include <Adafruit_PN532.h>
+#include <SPI.h>
+#include <Wire.h>
 
-// NFC 센서 만들 것
+// NFC communication
+ #define PN532_SCK (A1)
+ #define PN532_MISO (A2)
+ #define PN532_MOSI (A3)
+ #define PN532_SS (A4)
+// #define PN532_IRQ (A0)
+// #define PN532_RESET (A5)
+Adafruit_PN532 nfc(PN532_SCK, PN532_MISO, PN532_MOSI, PN532_SS);
+#if defined(ARDUINO_ARCH_SAMD)
+   #define Serial SerialUSB
+#endif
+
 // Adafruit TFT LCD 2.2 Inch 320 * 240
 #define _sclk 7
 #define _miso 6
@@ -41,6 +56,12 @@ boolean flag = false;
 float startSec = 0;
 float pushSec = 0;
 int twomin = 0;
+
+uint8_t message[2];
+uint8_t send;
+uint8_t sendLength;
+uint8_t response;
+uint8_t responseLength;
 
 void btnCallback(){
   // when characters arrive over the serial port...
@@ -94,6 +115,16 @@ void timerCallback{
     tft.print("Count : ");
     tft.print(count);
     if(twomin == 120){
+      // NFC communication
+      if(nfc.inListPassiveTarget()){
+        while (true){
+          message[0] = 1;
+          message[1] = count;
+          uint8_t sendLength = sizeof(message);
+          nfc.inDataExchange(message, &sendLength, message, sizeof(message)))
+          }
+        }
+      }
       // Finish sound
       for(int i = 0; i < numTones; i++){
         tone(speakerPin, tones[i]);
@@ -107,6 +138,29 @@ void timerCallback{
 }
 
 void setup() {
+  // Change analog to digital
+  pinMode(A1, OUTPUT);
+  pinMode(A2, OUTPUT);
+  pinMode(A3, OUTPUT);
+  pinMode(A4, INPUT);
+  // NFC setup
+  #ifndef ESP8266
+  while (!Serial);// for Leonardo/Micro/Zero
+  #endif
+  Serial.begin(115200);
+  Serial.print("\r\n\r\nPN532 NFC Start");
+  nfc.begin();
+  uint32_t versiondata = nfc.getFirmwareVersion();
+  if (! versiondata)
+  {
+      Serial.print("\r\nDidn't find PN53x board");
+      while (1); // halt
+  }
+ // the default behaviour of the PN532.
+  nfc.setPassiveActivationRetries(0xFF);
+  // configure board to read RFID tags
+  nfc.SAMConfig();
+  nfc.begin();
   // Restart Off
   digitalWrite(btnReset, HIGH);
   // TFT LCD initialization
