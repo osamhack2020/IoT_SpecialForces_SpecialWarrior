@@ -30,15 +30,15 @@ Adafruit_PN532 nfc(PN532_SCK, PN532_MISO, PN532_MOSI, PN532_SS);
 Adafruit_ILI9340 tft = Adafruit_ILI9340(_cs, _dc, _rst);
 
 // Ultrasonic sensor
-#define trigPin = 9;
-#define echoPin = 8;
+#define trigPin = 9
+#define echoPin = 8
 
 // Button
-#define btnStart 13;
-#define btnReset 11;
+#define btnStart 13
+#define btnReset 11
 
 // Buzzer
-#define speakerPin = 12;
+#define speakerPin = 12
 int numTones = 7;
 int count = 0;
 //GGHHGGF(솔솔라라솔솔미) 학교종이 땡땡땡
