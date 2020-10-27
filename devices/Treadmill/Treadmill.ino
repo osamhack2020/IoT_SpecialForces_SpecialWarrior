@@ -54,27 +54,53 @@ uint8_t responseLength;
 // Timer
 float startSec;
 float pushSec;
+float timerSec;
+int goalTime;
 
 void btnCallback(){
     int resistance = analogRead(A0);
     if (digitalRead(btnStart) == LOW){
        // push button, timer start
        pushSec = millis()
+       // Variable resistance Treadmill
        while(true){
            int motor = map(resistance, 0, 1203, 0, 255);
            analogWrite(9, motor);
-           // 이동 거리 측정 3km가 되면 break
-           // nfc로 time을 보내줌
+           distance = (255 * 4 * timerSec) / resistance;
+           if(distance >= 3000){
+               break;
+           }
        }
     }
+    // NFC communication
+    if(nfc.inListPassiveTarget()){
+    for (int i = 0; i <= sizeof(message); i++){
+        message[0] = 0;
+        message[1] = 2;
+        message[2] = goalTime;
+        uint8_t sendLength = sizeof(message);
+        nfc.inDataExchange(message[i], &sendLength, message, sizeof(message)))
+        }
+    }
+    // Finish sound
+    for(int i = 0; i < numTones; i++){
+    tone(speakerPin, tones[i]);
+    delay(500);
+    }
+    noTone(speakerPin);
+    // Restart On
+    digitalWrite(btnReset, LOW);
+}
     
 }
 void timerCallback(){
     // Device start time
     startSec = millis();
-    timersec = int(startSec - pushSec)/1000;
-    // 타이머 시/분/초 단위 만들기
-    // TFT START 표시
+    timerSec = int(startSec - pushSec)/1000;
+    // min + sec
+    int tMin = timerSec / 60;
+    int tSec = timerSec % 60;
+    goalTime = (tMin * 100 + tSec);
     tft.setCursor(65, 40);
     tft.setTextColor(ILI9340_WHITE, ILI9340_BLACK);
     tft.setTextSize(4);
