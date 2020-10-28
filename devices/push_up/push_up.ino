@@ -98,7 +98,7 @@ void btnCallback(){
       // calculate distance
       float distance = ((float)(340 * duration) / 10000) / 2;  
       // counting push-up
-      if(distance =< 12 && flag == false){
+      if(distance <= 12 && flag == false){
         count =+ 1;
         flag = true;
       }
