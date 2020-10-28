@@ -42,12 +42,36 @@ uint8_t sendLength;
 uint8_t response;
 uint8_t responseLength;
 
+// Flag
 boolean flag = true;// Finish flag
-boolean countFlag = false;
+boolean countFlag = false;// counting flag
 void setup(){
     scale.set_scale();
     scale.tare(); //Reset the scale to 0
     long zero_factor = scale.read_average(); //Get a baseline reading
+    // Change analog to digital
+    pinMode(A1, OUTPUT);
+    pinMode(A2, OUTPUT);
+    pinMode(A3, OUTPUT);
+    pinMode(A4, INPUT);
+    // NFC setup
+    #ifndef ESP8266
+    while (!Serial);// for Leonardo/Micro/Zero
+    #endif
+    Serial.begin(115200);
+    nfc.begin();
+    uint32_t versiondata = nfc.getFirmwareVersion();
+    if (! versiondata)
+    {
+        while (1); // halt
+    }
+    // the default behaviour of the PN532.
+    nfc.setPassiveActivationRetries(0xFF);
+    // configure board to read RFID tags
+    nfc.SAMConfig();
+    nfc.begin();
+    // Restart Off
+    digitalWrite(btnReset, HIGH);
 }
 void loop(){
     scale.set_scale(zero_factor); //Adjust to this calibration factor
@@ -84,4 +108,6 @@ void loop(){
             flag = false;
         }
     }
+    // Restart On
+    digitalWrite(btnReset, LOW);
 }
