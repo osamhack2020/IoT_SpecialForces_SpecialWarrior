@@ -33,6 +33,7 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 
 ## 3. Prerequisites (컴퓨터구성/필수조건 안내)
 - 안드로이드 버전
+    - Android 6.0 이상
 
 - 웹브라우저 제한사항
     - Chrome 62 이상
@@ -63,7 +64,10 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
     vuex
     axios
 ### (2)Application
-
+    AndroidX
+    MaterialDesign
+    Retrofit 2.0
+    MPAndroidChart
 ### (3)Server
     PHP 7.2
     MariaDB 10.1
@@ -103,7 +107,14 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 
 ### app
 <병사용 Service>
-
+1. APK 파일 다운로드 및 설치
+2. 개인정보 및 소속 정보 입력 후 회원가입
+3. 홈 탭에 있는 메뉴를 통해 최근일자의 몸무게/수면시간/심박수/섭취칼로리를 그래프로 확인 가능
+4. 홈-몸무게/수면시간 탭에 있는 입력하기 버튼을 통해 현재 몸무게/수면시간을 입력
+5. 홈-심박수 탭에서 기기 센서 접촉을 통해 현재 심박수 측정
+6. 홈-음식 탭에서 섭취한 음식을 검색하여 해당 음식의 칼로리 입력
+7. 운동 탭에서 최근 수행한 운동의 종류와 개수를 확인 가능
+8. 운동기구에 핸드폰을 올려둘 경우 IoT 센서와의 NFC 접촉 방식을 통해 운동 종류와 개수를 자동으로 서버에 저장
 
 ### web
 <간부용 BackOffice>
