@@ -1,62 +1,88 @@
 # SpecialForces
+[**WEB 저장소**](https://github.com/osamhack2020/Web_SpecialForces_SpecialWarrior) | [**App 저장소**](https://github.com/osamhack2020/App_SpecialForces_SpecialWarrior) | [**IoT 저장소**](https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior)
 ![1603742156358](https://user-images.githubusercontent.com/26067127/97261793-eb641b00-1862-11eb-9595-28c4e3f7ec9e.jpg)</br>
 SpecialForces is a healthcare solution for Ministry of National Defense Soldiers.</br>
 스페셜포스는 대한민국 국방부 국군 장병들을 위한 헬스케어 솔루션입니다.
-
 ## 1. Intro
-### 발표영상
+### (1)발표영상
 [![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)</br>
 
-### 시연영상
+### (2)시연영상
 [![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)</br>
 
-### Project Intro (프로젝트 소개 & 서비스 흐름도)
+### (3)Project Intro (프로젝트 소개 & 서비스 흐름도)
 ![Service Flowchart](https://user-images.githubusercontent.com/26067127/97585054-105fb600-1a3c-11eb-97e5-4d7c8955f807.png)
 >스페셜포스는 장병들의 운동을 기록해주는 디바이스와 이를 한 눈에 보여주는 어플리케이션(병사용) 그리고 모든 병사를 한 번에 관리를 할 수 있는 웹사이트(간부용)로 이루어져 있습니다. 스페셜포스는 사이버 작전 사령부에서 제안한 체력측정앱이라는 주제를 바탕으로 IoT, Web, App으로 확장시킨 프로젝트 입니다. 그래서 단순한 체력측정만이 아닌 병사들을 위한 건강관리 솔루션입니다. 스페셜 포스를 이용하면 장병들은 핸드폰에 운동 데이터가 쌓이므로 운동에 더욱 흥미를 가질 것입니다. 또한 자신들의 운동 기록이 상세하게 기록되어 더욱 효율적으로 균형잡힌 운동을 하게 될 것입니다. 그리고 쉽게 건강관리를 할 수 있게 됩니다. 현재 스패셜 포스는 5개의 운동기기와 1개의 심박동측정 센서를 지원합니다. 하지만 각 운동기기에 알맞은 모듈을 개발하면 체력단련실에 있는 모든 운동기기와 호완이 될 것이고 또 나아가서 스마트워치나 워리어 플렛폼과도 연동이 될 수 있는 솔루션입니다. 스페셜 포스는 전우들과 함께 즐긴 풋살과 배드민턴부터 유격이나 혹한기 훈련을 받으면서 쌓이는 건강 기록까지 관리하는 헬스케어 솔루션이 될 수 있습니다.
 
 >Special Force consists of a device that records the movements of soldiers, an application that shows them at a glance (for use by soldiers), and a website that allows them to manage all soldiers at once (for executives). Special Force is a project expanded to IoT, Web, and App based on the theme of the fitness measurement app proposed by the Cyber Operations Command. So, it is not just a simple physical fitness measurement, but a health care solution for soldiers. If you use Special Force, soldiers will be more interested in exercise because exercise data is accumulated on their mobile phones. In addition, their exercise records will be recorded in detail so that they will be able to perform more efficient and balanced exercise. And you can easily manage your health. Special Force support 5 exercise devices and 1 heart rate sensor. However, if you develop a module suitable for each exercise device, it will be compatible with all exercise devices in the fitness room, and furthermore, it is a solution that can be linked with smart watches or warrior platforms. Special Forces can be a healthcare solution that manages the health records accumulated while training in gaps and cold seasons, from futsal and badminton enjoyed with comrades.
 
-### (1)Service
+#### Service
 >스페셜포스 디바이스는 장병들의 체력을 자동으로 측정해주는 장치입니다. 해당 장치는 여러개의 모듈로 이루어져 있으며 이 모듈이 각각의 운동 내역을 센싱하여 NFC 통신을 통해 어플리케이션에 운동데이터를 전송합니다. 어플리케이션은 장병들 자신의 운동기록을 확인 할 수 있으며 체력 측정기록, 몸무게, 심박동 측정기록, 수면기록 등도 함께 확인해 볼 수 있습니다. 또한 운동데이터를 서버로 전송하여 전우들에게 운동 내역을 보여줌으로써 운동하고 싶은 마음을 고취시키고 선의의 경쟁을 하거나 자신의 운동량이 얼마나 되는지 확인해보는 등 여러가지 방향으로 활용 할 수 있습니다.
 
 >The IoT devices was designed to record fitness data automatically. The device consist of some modules that record and transmit fitness data to Android application through NFC technology. Soldiers can monitor their records via Android application and also heartrate data, sleep pattern data, fitness test data that according to MND(Ministry of National Defense) creteria.
 
-### (2)Management
+#### Management
 >스페셜포스의 웹은 Back Office로 병사들을 관리하는 간부전용웹사이트 입니다. BackOffice에서는 병사 한명 한명의 운동량과 수면시간, 체중의 변화, 심박동 측정기록 등을 세밀하게 확인하여 해당 병사의 건강을 한 눈에 알 수 있습니다. 또 모아보기 기능을 지원하여 모든 병사의 데이터를 기반으로 중대의 평균적인 체력 상태를 계산 할 수 있습니다.  전사현황뷰를 통해 특급전사나 국군지휘통신사령부의 빛가온전사처럼 특정부대의 체력검정 조건을 설정하여 조건을 달성한 병사들이 얼마나 있는지 한 번에 알아보는 기능도 있습니다.
 
 >The website for SpecialForce is just for cadre that supervise soldiers. With SpecialForces, Supervisors are able to take care of exercise, sleep time, heartrate, weight and height of soldiers. Supervisors can monitor health statement for their soldiers while encouraging soldiers to do fitness and care themselves autonomously, too.
+
 ## 2. System Architecture (시스템 구조)
 
-### System Diagram (기능설계도)
+### (1) System Diagram (기능설계도)
 ![System Diagram](https://user-images.githubusercontent.com/26067127/97582481-24ee7f00-1a39-11eb-8aef-1954006f45f8.png)
 
-### StoryBoard (프로젝트 문서)
-- <a href = "화면정의서"> Web/App화면설계안 </a>
+### (2) Document (프로젝트 문서)
 - <a href = "https://spefo.stoplight.io/docs/web-specialforces-specialwarrior/reference/specialforces.v1.yaml"> 공식 API 문서 </a>
-- <a href = "gitbook"> Git Book 문서 </a>
+- <a href = "gitbook"> Git Book</a>
 - <a href = "https://www.erdcloud.com/d/x3pmnS3jFMrxiPcaW"> DataBase ERDiagram </a>
 - <a href = "https://github.com/orgs/SpecailForces/projects/1"> git project KanBanBoard 1 </a>
 - <a href = "https://github.com/osamhack2020/App_SpecialForces_SpecialWarrior/projects/2"> git project KanBanBoard 2 </a>
+- <a href = "https://docs.google.com/presentation/d/1y2Pu0RgSUVKd3x4ULOtYEjo13R1m0j6FjGWLmiCoR_Y/edit?usp=sharing"> App/Web 화면설계안 </a>
 - <a href = "https://calendar.google.com/calendar/u/0?cid=OG1yZ3FhYTI5MTMwN2FldTZucDdvbXEwcmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"> Google Calendar 특급전사 팀 공개 일정 </a>
 
 ## 3. Prerequisites (컴퓨터구성/필수조건 안내)
-- 아두이노 장치 구성
-    - Arduino Nano(아두이노 나노)
-    - HC-SR04(초음파센서)
-    - PN532(NFC모듈)
-    - ILI9340(TFT-LCD
-    - PIEZO Speaker(Buzzer)
-    - ITR-9909(포토센서)
-    - Load Sell(로드셀)
-    - HX711(Load Sell Amplifier)
-    - RJ45(Load Sensor Combinator)
-    - Reed switch(리드스위치)
-    - PulseSensor(심박동센서)
-
-- 안드로이드 버전
+- <b>IoT 장치 구성</b>
+    - <b>팔굽혀펴기 체력 측정 장치</b>
+        - Arduino Nano(아두이노 나노)
+        - PN532(NFC모듈)
+        - ILI9340(TFT-LCD)
+        - HC-SR04(초음파센서)
+        - PIEZO Speaker(Buzzer)
+        
+    - <b>윗몸일으키기 체력 측정 장치</b>
+        - Arduino Nano(아두이노 나노)
+        - PN532(NFC모듈)
+        - ILI9340(TFT-LCD)
+        - ITR-9909(포토센서)
+        - PIEZO Speaker(Buzzer)
+        
+    - <b>렛 풀 다운 운동 측정장치</b>
+        - Arduino Nano(아두이노 나노)
+        - PN532(NFC모듈)
+        - Reed switch(리드스위치)
+        
+    - <b>심박동 측정장치</b>
+        - Arduino Nano(아두이노 나노)
+        - PN532(NFC모듈)
+        - PulseSensor(심박동센서)
+        
+    - <b>레그 프레스 운동 측정장치</b>
+        - Arduino Nano(아두이노 나노)
+        - PN532(NFC모듈)
+        - Load Sell(로드셀)
+        - HX711(Load Sell Amplifier)
+        - BOB13878(Load Combinator)
+        
+    - <b>뜀뛰기 체력 측정장치</b>
+        - Arduino Nano(아두이노 나노)
+        - PN532(NFC모듈)
+        - DCmotor(DC모터)
+        - Potentiometer(가변저항)
+        
+- <b>안드로이드 버전</b>
     - Android 6.0 이상
 
-- 웹브라우저 제한사항
+- <b>웹브라우저 제한사항</b>
     - Chrome 62 이상
     - IE 9,10,11 (IE 8 이하 미지원)
     - Edge 15 이상
@@ -72,6 +98,7 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/lat_pull_down">렛 폴 다운 운동 측정장치</a>
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/leg_press">레그 프레스 운동 측정장치</a>
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Pulse%20Detection">심박동 측정장치</a>
+
 ### (2)Application
     AndroidX
     MaterialDesign
