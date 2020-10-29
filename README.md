@@ -91,14 +91,17 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 
 ## 4. Technique Used (기술스택)
 
-### (1)IoT Device(클릭시 해당 기기 문서로 이동)
-- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/push_up">팔굽혀펴기 체력 측정장치</a>
-- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/sit_up">윗몸일으키기 체력 측정장치</a>
-- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Treadmill">뜀뛰기 체력 측정장치</a>
-- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/lat_pull_down">렛 폴 다운 운동 측정장치</a>
-- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/leg_press">레그 프레스 운동 측정장치</a>
-- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Pulse%20Detection">심박동 측정장치</a>
-
+### (1)IoT Arduino
+    Thread
+    ThreadController
+    Adafruit_ILI9340
+    dafruit_PN532
+    SPI
+    Wire
+    HX711
+    PulseSensorPlayground
+    SoftwareSerial
+    
 ### (2)Application
     AndroidX
     MaterialDesign
@@ -127,32 +130,35 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Pulse%20Detection#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">심박동 측정장치</a>
 
 ### app
+
 ## 6. Getting Started (프로젝트 사용법)
 
 ### IoT
+<details>
+    <summary><b>간단한 설명</b></summary>
 
+    <운동기구>
+    1. 하고 싶은 운동기구에 헨드폰을 올려 둔다.
+    2. 운동을 시작한다.
+    3. 어플리케이션에 해당 운동 내역이 자동으로 저장된다.
+
+    <체력 측정 기구>
+    1. 측정하고 싶은 운동기구에 헨드폰을 올려 둔다.
+    2. 버튼을 누른다.
+    3. 부저의 알람이 울릴 때까지 운동을 실시한다.
+    4. 시간과 운동 현황은 운동기구에 달려있는 LCD를 통해 볼 수 있다.
+    5. 부저가 울리면 어플리케이션에 결과가 자동으로 측정된다.
+
+</details>
 #### 상세 설명(클릭시 해당 기기 문서로 이동)
-- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/push_up#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">팔굽혀펴기 체력 측정장치</a>
-- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/sit_up#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">윗몸일으키기 체력 측정장치</a>
-- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Treadmill#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">뜀뛰기 체력 측정장치</a>
-- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/lat_pull_down#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">렛 폴 다운 운동 측정장치</a>
-- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/leg_press#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">레그 프레스 운동 측정장치</a>
-- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Pulse%20Detection#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">심박동 측정장치</a>
+- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/push_up">팔굽혀펴기 체력 측정장치</a>
+- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/sit_up">윗몸일으키기 체력 측정장치</a>
+- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Treadmill">뜀뛰기 체력 측정장치</a>
+- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/lat_pull_down">렛 폴 다운 운동 측정장치</a>
+- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/leg_press">레그 프레스 운동 측정장치</a>
+- <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Pulse%20Detection">심박동 측정장치</a>
 
-#### 간단한 설명
-<운동기구>
-1. 하고 싶은 운동기구에 헨드폰을 올려 둔다.
-2. 운동을 시작한다.
-3. 어플리케이션에 해당 운동 내역이 자동으로 저장된다.
-
-<체력 측정 기구>
-1. 측정하고 싶은 운동기구에 헨드폰을 올려 둔다.
-2. 버튼을 누른다.
-3. 부저의 알람이 울릴 때까지 운동을 실시한다.
-4. 시간과 운동 현황은 운동기구에 달려있는 LCD를 통해 볼 수 있다.
-5. 부저가 울리면 어플리케이션에 결과가 자동으로 측정된다.
-
-### app (화면 구조도)
+### app (화면 켑쳐 + 설명)
 <병사용 Service>
 1. APK 파일 다운로드 및 설치
 2. 개인정보 및 소속 정보 입력 후 회원가입
@@ -163,7 +169,7 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 7. 운동 탭에서 최근 수행한 운동의 종류와 개수를 확인 가능
 8. 운동기구에 핸드폰을 올려둘 경우 IoT 센서와의 NFC 접촉 방식을 통해 운동 종류와 개수를 자동으로 서버에 저장
 
-### web (화면 구조도)
+### web (화면 켑쳐 + 설명)
 <간부용 BackOffice>
 1. <a href = "https://osamhack2020.github.io/Web_SpecialForces_SpecialWarrior"> 해당 사이트 </a> 접속
 2. 부대 소속 및 군번 개인정보 입력 후 회원가입
