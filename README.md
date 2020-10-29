@@ -19,6 +19,7 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 >스페셜포스 디바이스는 장병들의 체력을 자동으로 측정해주는 장치입니다. 해당 장치는 여러개의 모듈로 이루어져 있으며 이 모듈이 각각의 운동 내역을 센싱하여 NFC 통신을 통해 어플리케이션에 운동데이터를 전송합니다. 어플리케이션은 장병들 자신의 운동기록을 확인 할 수 있으며 체력 측정기록, 몸무게, 심박동 측정기록, 수면기록 등도 함께 확인해 볼 수 있습니다. 또한 운동데이터를 서버로 전송하여 전우들에게 운동 내역을 보여줌으로써 운동하고 싶은 마음을 고취시키고 선의의 경쟁을 하거나 자신의 운동량이 얼마나 되는지 확인해보는 등 여러가지 방향으로 활용 할 수 있습니다.
 
 >The IoT devices was designed to record fitness data automatically. The device consist of some modules that record and transmit fitness data to Android application through NFC technology. Soldiers can monitor their records via Android application and also heartrate data, sleep pattern data, fitness test data that according to MND(Ministry of National Defense) creteria.
+
 ### (2)Management
 >스페셜포스의 웹은 Back Office로 병사들을 관리하는 간부전용웹사이트 입니다. BackOffice에서는 병사 한명 한명의 운동량과 수면시간, 체중의 변화, 심박동 측정기록 등을 세밀하게 확인하여 해당 병사의 건강을 한 눈에 알 수 있습니다. 또 모아보기 기능을 지원하여 모든 병사의 데이터를 기반으로 중대의 평균적인 체력 상태를 계산 할 수 있습니다.  전사현황뷰를 통해 특급전사나 국군지휘통신사령부의 빛가온전사처럼 특정부대의 체력검정 조건을 설정하여 조건을 달성한 병사들이 얼마나 있는지 한 번에 알아보는 기능도 있습니다.
 
@@ -26,25 +27,18 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 ## 2. System Architecture (시스템 구조)
 
 ### System Diagram (기능설계도)
+![System Diagram](https://user-images.githubusercontent.com/26067127/97582481-24ee7f00-1a39-11eb-8aef-1954006f45f8.png)
 
 ### StoryBoard (프로젝트 문서)
 - <a href = "화면정의서"> Web/App화면설계안 </a>
+- <a href = "https://spefo.stoplight.io/docs/web-specialforces-specialwarrior/reference/specialforces.v1.yaml"> 공식 API 문서 </a>
+- <a href = "gitbook"> Git Book 문서 </a>
+- <a href = "https://www.erdcloud.com/d/x3pmnS3jFMrxiPcaW"> DataBase ERDiagram </a>
 - <a href = "https://github.com/orgs/SpecailForces/projects/1"> git project KanBanBoard 1 </a>
 - <a href = "https://github.com/osamhack2020/App_SpecialForces_SpecialWarrior/projects/2"> git project KanBanBoard 2 </a>
 - <a href = "https://calendar.google.com/calendar/u/0?cid=OG1yZ3FhYTI5MTMwN2FldTZucDdvbXEwcmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"> Google Calendar 특급전사 팀 공개 일정 </a>
-- <a href = "https://www.erdcloud.com/d/x3pmnS3jFMrxiPcaW"> DB ERD </a>
 
 ## 3. Prerequisites (컴퓨터구성/필수조건 안내)
-- 안드로이드 버전
-    - Android 6.0 이상
-
-- 웹브라우저 제한사항
-    - Chrome 62 이상
-    - IE 9,10,11 (IE 8 이하 미지원)
-    - Edge 15 이상
-    - Firefox 56 이상
-    - Safari 8 이상
-
 - 아두이노 장치 구성
     - Arduino Nano(아두이노 나노)
     - HC-SR04(초음파센서)
@@ -58,35 +52,43 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
     - Reed switch(리드스위치)
     - PulseSensor(심박동센서)
 
+- 안드로이드 버전
+    - Android 6.0 이상
+
+- 웹브라우저 제한사항
+    - Chrome 62 이상
+    - IE 9,10,11 (IE 8 이하 미지원)
+    - Edge 15 이상
+    - Firefox 56 이상
+    - Safari 8 이상
+
 ## 4. Technique Used (기술스택)
 
-### (1)Back Office
-    vuejs
-    vue-cli
-    vuetifyjs
-    vue-router
-    vuex
-    axios
-### (2)Application
-    AndroidX
-    MaterialDesign
-    Retrofit 2.0
-    MPAndroidChart
-### (3)Server
-    PHP 7.2
-    MariaDB 10.1
-    Apache 2.4
-### (4)IoT Device(클릭시 해당 기기 문서로 이동)
+### (1)IoT Device(클릭시 해당 기기 문서로 이동)
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/push_up">팔굽혀펴기 체력 측정장치</a>
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/sit_up">윗몸일으키기 체력 측정장치</a>
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Treadmill">뜀뛰기 체력 측정장치</a>
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/lat_pull_down">렛 폴 다운 운동 측정장치</a>
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/leg_press">레그 프레스 운동 측정장치</a>
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Pulse%20Detection">심박동 측정장치</a>
+### (2)Application
+    AndroidX
+    MaterialDesign
+    Retrofit 2.0
+    MPAndroidChart
+### (3)Back Office
+    vuejs
+    vue-cli
+    vuetifyjs
+    vue-router
+    vuex
+    axios
+### (4)Server
+    PHP 7.2
+    MariaDB 10.1
+    Apache 2.4
 
 ## 5. Installation Process (설치 안내)
-
-### app
 
 ### IoT(클릭시 해당 기기 문서로 이동)
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/push_up#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">팔굽혀펴기 체력 측정장치</a>
@@ -96,7 +98,7 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/leg_press#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">레그 프레스 운동 측정장치</a>
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Pulse%20Detection#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">심박동 측정장치</a>
 
-
+### app
 ## 6. Getting Started (프로젝트 사용법)
 
 ### IoT
