@@ -33,7 +33,7 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 
 ### (2) Document (프로젝트 문서)
 - <a href = "https://spefo.stoplight.io/docs/web-specialforces-specialwarrior/reference/specialforces.v1.yaml"> 공식 API 문서 </a>
-- <a href = "gitbook"> Git Book</a>
+- <a href = "https://app.gitbook.com/@specialwarrior-specialforces/s/specialforces/~/drafts/-MKosmB4whmhZyuw8YHz/"> Git Book</a>
 - <a href = "https://www.erdcloud.com/d/x3pmnS3jFMrxiPcaW"> DataBase ERDiagram </a>
 - <a href = "https://github.com/orgs/SpecailForces/projects/1"> git project KanBanBoard 1 </a>
 - <a href = "https://github.com/osamhack2020/App_SpecialForces_SpecialWarrior/projects/2"> git project KanBanBoard 2 </a>
@@ -101,6 +101,7 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
     HX711
     PulseSensorPlayground
     SoftwareSerial
+    ※ 자세한 설명은 각 디바이스 README or Git Book Document를 참고 할 것
     
 ### (2)Application
     AndroidX
@@ -150,6 +151,7 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
     5. 부저가 울리면 어플리케이션에 결과가 자동으로 측정된다.
 
 </details>
+
 #### 상세 설명(클릭시 해당 기기 문서로 이동)
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/push_up">팔굽혀펴기 체력 측정장치</a>
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/sit_up">윗몸일으키기 체력 측정장치</a>
