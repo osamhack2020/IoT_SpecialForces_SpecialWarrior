@@ -33,7 +33,7 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 
 ## 3. Prerequisites (컴퓨터구성/필수조건 안내)
 - 안드로이드 버전
-    - Android 6.0 
+    - Android 6.0 이상
 
 - 웹브라우저 제한사항
     - Chrome 62 이상
