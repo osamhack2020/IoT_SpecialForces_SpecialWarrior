@@ -4,13 +4,13 @@
 SpecialForces is a healthcare solution for Ministry of National Defense Soldiers.</br>
 스페셜포스는 대한민국 국방부 국군 장병들을 위한 헬스케어 솔루션입니다.
 ## 1. Intro
-### (1)발표영상
+### 발표영상
 [![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)</br>
 
-### (2)시연영상
+### 시연영상
 [![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)</br>
 
-### (3)Project Intro (프로젝트 소개 & 서비스 흐름도)
+### Project Intro (프로젝트 소개 & 서비스 흐름도)
 ![Service Flowchart](https://user-images.githubusercontent.com/26067127/97585054-105fb600-1a3c-11eb-97e5-4d7c8955f807.png)
 >스페셜포스는 장병들의 운동을 기록해주는 디바이스와 이를 한 눈에 보여주는 어플리케이션(병사용) 그리고 모든 병사를 한 번에 관리를 할 수 있는 웹사이트(간부용)로 이루어져 있습니다. 스페셜포스는 사이버 작전 사령부에서 제안한 체력측정앱이라는 주제를 바탕으로 IoT, Web, App으로 확장시킨 프로젝트 입니다. 그래서 단순한 체력측정만이 아닌 병사들을 위한 건강관리 솔루션입니다. 스페셜 포스를 이용하면 장병들은 핸드폰에 운동 데이터가 쌓이므로 운동에 더욱 흥미를 가질 것입니다. 또한 자신들의 운동 기록이 상세하게 기록되어 더욱 효율적으로 균형잡힌 운동을 하게 될 것입니다. 그리고 쉽게 건강관리를 할 수 있게 됩니다. 현재 스패셜 포스는 5개의 운동기기와 1개의 심박동측정 센서를 지원합니다. 하지만 각 운동기기에 알맞은 모듈을 개발하면 체력단련실에 있는 모든 운동기기와 호완이 될 것이고 또 나아가서 스마트워치나 워리어 플렛폼과도 연동이 될 수 있는 솔루션입니다. 스페셜 포스는 전우들과 함께 즐긴 풋살과 배드민턴부터 유격이나 혹한기 훈련을 받으면서 쌓이는 건강 기록까지 관리하는 헬스케어 솔루션이 될 수 있습니다.
 
@@ -28,10 +28,10 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 
 ## 2. System Architecture (시스템 구조)
 
-### (1) System Diagram (기능설계도)
+### System Diagram (기능설계도)
 ![System Diagram](https://user-images.githubusercontent.com/26067127/97582481-24ee7f00-1a39-11eb-8aef-1954006f45f8.png)
 
-### (2) Document (프로젝트 문서)
+### Document (프로젝트 문서)
 - <a href = "https://spefo.stoplight.io/docs/web-specialforces-specialwarrior/reference/specialforces.v1.yaml"> 공식 API 문서 </a>
 - <a href = "https://app.gitbook.com/@specialwarrior-specialforces/s/specialforces/~/drafts/-MKosmB4whmhZyuw8YHz/"> Git Book</a>
 - <a href = "https://www.erdcloud.com/d/x3pmnS3jFMrxiPcaW"> DataBase ERDiagram </a>
@@ -91,7 +91,7 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 
 ## 4. Technique Used (기술스택)
 
-### (1)IoT Arduino
+### IoT Arduino
     Thread
     ThreadController
     Adafruit_ILI9340
@@ -103,19 +103,19 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
     SoftwareSerial
     ※ 자세한 설명은 각 디바이스 README or Git Book Document를 참고 할 것
     
-### (2)Application
+### Application
     AndroidX
     MaterialDesign
     Retrofit 2.0
     MPAndroidChart
-### (3)Back Office
+### Back Office
     vuejs
     vue-cli
     vuetifyjs
     vue-router
     vuex
     axios
-### (4)Server
+### Server
     PHP 7.2
     MariaDB 10.1
     Apache 2.4
