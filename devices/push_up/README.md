@@ -5,15 +5,12 @@
 
 >SpecialForces push-up auto measuring device can automatically measures the number of push-ups for two minute. The push-up device is used by placing the mobile phone on the mobile phone holder.Press the button to start measuring your fitness and the monitor will show how many seconds have passed. When you start push-ups, the sensor automatically calculates the floor and chest height and counts them. After 2 minutes, your workout data will be sent to your phone with a notification bell.
 
-
 ## Circuit (회로도)
 ![push-up Circuit](https://user-images.githubusercontent.com/26067127/97004086-739ea380-1577-11eb-88ea-bd1aace00773.png)
 
-## Software Diagram(소프트웨어 다이어그램)
-
 ## Installation Process (설치 안내)
 1. 아두이노 나노, 초음파 센서, 부저, tft lcd, nfc모듈, 버튼을 준비합니다.
-2. 위 회로도에 맞추어 연결합니다.
+2. 위 회로도에 맞추어 다음과 같은 장치에 연결합니다.
 3. 헨드폰에 스페셜포스 어플리케이션을 설치합니다.
 4. push_up.ino 파일을 다운받아 아두이노에 업로드합니다.
 5. 아두이노 나노에 외부 전원을 연결한 후 TFT LCD를 확인하여 제대로 설치가 되었는지 확인합니다.
