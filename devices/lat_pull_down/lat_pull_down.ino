@@ -47,6 +47,7 @@ uint8_t responseLength;
 
 int count = 0;
 int tWeight = 0;
+boolean flag = true;
 void setup(){
     // Change analog to digital
     pinMode(A1, OUTPUT);
@@ -84,5 +85,55 @@ void setup(){
     pinMode(reedsw, INPUT);
 }
 void loop(){
-    // todo
+    if(btn10kg == LOW){
+        tWeight = 10;
+        startEx(tWeight);
+    }else if(btn20kg == LOW){
+        tWeight = 20;
+        startEx(tWeight);
+    }else if(btn30kg == LOW){
+        tWeight = 30;
+        startEx(tWeight);
+    }else if(btn40kg == LOW){
+        tWeight = 40;
+        startEx(tWeight);
+    }else if(btn50kg == LOW){
+        tWeight = 50;
+        startEx(tWeight);
+    }else if(btn60kg == LOW){
+        tWeight = 60;
+        startEx(tWeight);
+    }else if(btn70kg == LOW){
+        tWeight = 70;
+        startEx(tWeight);
+    }else if(btn80kg == LOW){
+        tWeight = 80;
+        startEx(tWeight);
+    }else if(btn90kg == LOW){
+        tWeight = 90;
+        startEx(tWeight);
+    }else if(btn100kg == LOW){
+        tWeight = 100;
+        startEx(tWeight);
+    }
+}
+void startEx(int tWeight){
+    while(flag){
+        if(reedsw == HIGH){
+            count += 1;
+        }
+        if(count >= 15){
+            count = 0;
+            if(nfc.inListPassiveTarget()){
+                for (int i = 0; i <= sizeof(message); i++){
+                    message[0] = 1;
+                    message[1] = 0;
+                    message[2] = tWeight;
+                    uint8_t sendLength = sizeof(message);
+                    nfc.inDataExchange(message[i], &sendLength, message, sizeof(message)))
+                }
+            }
+            flag = false;
+        }
+    }
 }
