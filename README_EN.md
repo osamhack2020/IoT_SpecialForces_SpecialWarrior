@@ -94,13 +94,13 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
 ![System Diagram](https://user-images.githubusercontent.com/26067127/97582481-24ee7f00-1a39-11eb-8aef-1954006f45f8.png)
 
 ### Documentation
-- <a href = "https://spefo.stoplight.io/docs/web-specialforces-specialwarrior/reference/specialforces.v1.yaml"> 공식 API 문서 </a>
+- <a href = "https://spefo.stoplight.io/docs/web-specialforces-specialwarrior/reference/specialforces.v1.yaml"> API DOCUMENTATION </a>
 - <a href = "https://app.gitbook.com/@specialwarrior-specialforces/s/specialforces/~/drafts/-MKosmB4whmhZyuw8YHz/"> Git Book</a>
 - <a href = "https://www.erdcloud.com/d/x3pmnS3jFMrxiPcaW"> DataBase ERDiagram </a>
 - <a href = "https://github.com/orgs/SpecailForces/projects/1"> git project KanBanBoard 1 </a>
 - <a href = "https://github.com/osamhack2020/App_SpecialForces_SpecialWarrior/projects/2"> git project KanBanBoard 2 </a>
-- <a href = "https://docs.google.com/presentation/d/1y2Pu0RgSUVKd3x4ULOtYEjo13R1m0j6FjGWLmiCoR_Y/edit?usp=sharing"> App/Web 화면설계안 </a>
-- <a href = "https://calendar.google.com/calendar/u/0?cid=OG1yZ3FhYTI5MTMwN2FldTZucDdvbXEwcmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"> Google Calendar 특급전사 팀 공개 일정 </a>
+- <a href = "https://docs.google.com/presentation/d/1y2Pu0RgSUVKd3x4ULOtYEjo13R1m0j6FjGWLmiCoR_Y/edit?usp=sharing"> App/Web Design </a>
+- <a href = "https://calendar.google.com/calendar/u/0?cid=OG1yZ3FhYTI5MTMwN2FldTZucDdvbXEwcmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"> Team Google Calendar  </a>
 
 ## 3. Prerequisites (Guide to setup your machine and devices)
 - <b>IoT Device Prerequisites</b>
