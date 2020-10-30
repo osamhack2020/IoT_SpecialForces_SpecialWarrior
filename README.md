@@ -219,14 +219,12 @@ Vue Libraries
             <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" width="70" height="50"></td>
             <td align="center"><img src="https://t1.daumcdn.net/cfile/tistory/2110AB4D581033FD0D" width="60" height="50"></td>
             <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Apache_HTTP_server_logo_%282016%29.svg/1280px-Apache_HTTP_server_logo_%282016%29.svg.png" width="110" height="50"></td>
-            <td align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/036/thumb/jwt.png" width="50" height="50"></td>
         </tr>
         <tr>
             <td align="center">AWS EC2</td>
             <td align="center">PHP7.2</td>
             <td align="center">Mariadb10.1</td>
             <td align="center">Apache2.4</td>
-            <td align="center">JWT</td>
         </tr>
     </tbody>
 </table>
