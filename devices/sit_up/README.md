@@ -10,8 +10,6 @@
 ![sit-up Circuit](https://user-images.githubusercontent.com/26067127/97019823-bd918480-158b-11eb-9c9e-fa2931a9d1fa.png)
 </br>
 
-## Software Diagram(소프트웨어 다이어그램)
-
 ## Installation Process (설치 안내)
 1. 아두이노 나노, 포토 센서, 부저, tft lcd, nfc모듈, 버튼을 준비합니다.
 2. 위 회로도에 맞추어 연결합니다.
