@@ -1,5 +1,67 @@
 # SpecialForces
-[**WEB 저장소**](https://github.com/osamhack2020/Web_SpecialForces_SpecialWarrior) | [**App 저장소**](https://github.com/osamhack2020/App_SpecialForces_SpecialWarrior) | [**IoT 저장소**](https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior)
+[![API DOCUMENT](https://img.shields.io/badge/API%20DOCUMENTATION-LINK-green?style=for-the-badge)](https://spefo.stoplight.io/docs/web-specialforces-specialwarrior/reference/specialforces.v1.yaml)
+[![DOCUMENT](https://img.shields.io/badge/Gitbook-LINK-blue?style=for-the-badge)](https://specialwarrior-specialforces.gitbook.io/specialforces/)
+<br>
+<table>
+    <thead>
+        <tr align="center">
+            <td>Web</td>
+            <td>App</td>
+            <td>IoT</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td><a href="https://github.com/osamhack2020/Web_SpecialForces_SpecialWarrior">저장소</a></td>
+            <td><a href="https://github.com/osamhack2020/App_SpecialForces_SpecialWarrior">저장소</a></td>
+            <td><a href="https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior">저장소</a></td>
+        </tr>
+        <tr align="center">
+            <td><br>
+                
+![GitHub watchers](https://img.shields.io/github/watchers/osamhack2020/Web_SpecialForces_SpecialWarrior?style=for-the-badge)
+[![GitHub stars](https://img.shields.io/github/stars/osamhack2020/Web_SpecialForces_SpecialWarrior?style=for-the-badge)](https://github.com/osamhack2020/Web_SpecialForces_SpecialWarrior/stargazers)
+[![GitHub license](https://img.shields.io/github/license/osamhack2020/Web_SpecialForces_SpecialWarrior?style=for-the-badge)](https://github.com/osamhack2020/Web_SpecialForces_SpecialWarrior/blob/main/LICENSE)
+            </td>
+            <td>
+                
+![GitHub watchers](https://img.shields.io/github/watchers/osamhack2020/App_SpecialForces_SpecialWarrior?style=for-the-badge)
+[![GitHub stars](https://img.shields.io/github/stars/osamhack2020/App_SpecialForces_SpecialWarrior?style=for-the-badge)](https://github.com/osamhack2020/App_SpecialForces_SpecialWarrior/stargazers)
+[![GitHub license](https://img.shields.io/github/license/osamhack2020/App_SpecialForces_SpecialWarrior?style=for-the-badge)](https://github.com/osamhack2020/App_SpecialForces_SpecialWarrior/blob/main/LICENSE)
+            </td>
+            <td>
+                
+![GitHub watchers](https://img.shields.io/github/watchers/osamhack2020/IoT_SpecialForces_SpecialWarrior?style=for-the-badge)
+[![GitHub stars](https://img.shields.io/github/stars/osamhack2020/IoT_SpecialForces_SpecialWarrior?style=for-the-badge)](https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/stargazers)
+[![GitHub license](https://img.shields.io/github/license/osamhack2020/IoT_SpecialForces_SpecialWarrior?style=for-the-badge)](https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/blob/main/LICENSE)
+            </td>
+        </tr>
+        <tr align="center">
+            <td>[![DEMO](https://img.shields.io/badge/Live%20Demo-LINK-green?style=for-the-badge)](https://page.spefor.ml)<br>
+Test account for Demo<br>
+    <table>
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>PW</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>test</td>
+            <td>test</td>
+        </tr>
+    </tbody>
+    </table>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 ![1603742156358](https://user-images.githubusercontent.com/26067127/97261793-eb641b00-1862-11eb-9595-28c4e3f7ec9e.jpg)</br>
 SpecialForces is a healthcare solution for Ministry of National Defense Soldiers.</br>
 스페셜포스는 대한민국 국방부 국군 장병들을 위한 헬스케어 솔루션입니다.
@@ -83,11 +145,8 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
     - Android 6.0 이상
 
 - <b>웹브라우저 제한사항</b>
-    - Chrome 62 이상
-    - IE 9,10,11 (IE 8 이하 미지원)
-    - Edge 15 이상
-    - Firefox 56 이상
-    - Safari 8 이상
+
+    ![Imgur](https://imgur.com/download/cRICVEu/)
 
 ## 4. Technique Used (기술스택)
 
@@ -108,17 +167,70 @@ SpecialForces is a healthcare solution for Ministry of National Defense Soldiers
     MaterialDesign
     Retrofit 2.0
     MPAndroidChart
-### Back Office
-    vuejs
-    vue-cli
-    vuetifyjs
-    vue-router
-    vuex
-    axios
-### Server
-    PHP 7.2
-    MariaDB 10.1
-    Apache 2.4
+### Frontend(Backoffice)
+<table>
+    <tbody>
+        <tr>
+            <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/220px-Vue.js_Logo_2.svg.png" width="50" height="50"></td>
+            <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png" width="50" height="50"></td>
+            <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="50" height="50"></td>
+            <td align="center"><img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" width="50" height="50"></td>
+            <td align="center"><img src="https://webpack.js.org/85ba630cf0c5f29ae3e3.svg" width="50" height="50"></td>
+            <td align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRfu1mi6LAfuv1HSVFYUtOVgBsIB5f96Ui_Xw&usqp=CAU" width="50" height="50"></td>
+        </tr>
+        <tr>
+            <td align="center">Vue.js</td>
+            <td align="center">Javascript</td>
+            <td align="center">CSS</td>
+            <td align="center">HTML5</td>
+            <td align="center">Webpack</td>
+            <td align="center">Github Pages</td>
+        </tr>
+    </tbody>
+</table>
+
+Vue Libraries
+<table>
+    <tbody>
+        <tr>
+            <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/220px-Vue.js_Logo_2.svg.png" width="50" height="50"></td>
+            <td align="center"><img src="https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-dark.svg" width="50" height="50"></td>
+            <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/220px-Vue.js_Logo_2.svg.png" width="50" height="50"></td>
+            <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/220px-Vue.js_Logo_2.svg.png" width="50" height="50"></td>
+            <td align="center"><img src="https://ukruralskills.co.uk/assets/providers_logos/no-logo.png" width="50" height="50"></td>
+            <td align="center"><img src="https://www.chartjs.org/img/chartjs-logo.svg" width="50" height="50"></td>
+        </tr>
+        <tr>
+            <td align="center">vue-cli</td>
+            <td align="center">vuetifyjs</td>
+            <td align="center">vue-router</td>
+            <td align="center">vuex</td>
+            <td align="center">axios</td>
+            <td align="center">chartjs</td>
+        </tr>
+    </tbody>
+</table>
+
+### Backend
+<table>
+    <tbody>
+        <tr>
+            <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/AWS_Simple_Icons_Compute_Amazon_EC2_Instances.svg/1200px-AWS_Simple_Icons_Compute_Amazon_EC2_Instances.svg.png" width="50" height="50"></td>
+            <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png" width="70" height="50"></td>
+            <td align="center"><img src="https://t1.daumcdn.net/cfile/tistory/2110AB4D581033FD0D" width="60" height="50"></td>
+            <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Apache_HTTP_server_logo_%282016%29.svg/1280px-Apache_HTTP_server_logo_%282016%29.svg.png" width="110" height="50"></td>
+            <td align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/036/thumb/jwt.png" width="50" height="50"></td>
+        </tr>
+        <tr>
+            <td align="center">AWS EC2</td>
+            <td align="center">PHP7.2</td>
+            <td align="center">Mariadb10.1</td>
+            <td align="center">Apache2.4</td>
+            <td align="center">JWT</td>
+        </tr>
+    </tbody>
+</table>
+
 
 ## 5. Installation Process (설치 안내)
 
