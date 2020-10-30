@@ -1,4 +1,8 @@
 # SpecialForces
+[![KOREAN README](https://img.shields.io/badge/README%20LANGUAGE-KOREAN-orange?style=for-the-badge)](https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/blob/master/README.md)
+[![ENG README](https://img.shields.io/badge/README%20LANGUAGE-ENGLISH-orange?style=for-the-badge)](https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/blob/master/README_EN.md)
+<br>
+
 [![API DOCUMENT](https://img.shields.io/badge/API%20DOCUMENTATION-LINK-green?style=for-the-badge)](https://spefo.stoplight.io/docs/web-specialforces-specialwarrior/reference/specialforces.v1.yaml)
 [![DOCUMENT](https://img.shields.io/badge/Gitbook-LINK-blue?style=for-the-badge)](https://specialwarrior-specialforces.gitbook.io/specialforces/)
 <br>
