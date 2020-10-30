@@ -9,11 +9,11 @@
 ![lat-pull-down Circuit](https://user-images.githubusercontent.com/26067127/97019798-b8343a00-158b-11eb-93bf-c028b81c69cc.png)
 </br>
 
-## Software Diagram(소프트웨어 다이어그램)
-
 ## Installation Process (설치 안내)
 1. 아두이노 나노, 리드스위치, nfc모듈, 덤벨 개수 만큼의 스위치를 준비합니다.
 2. 위 회로도에 맞추어 연결합니다.
 3. 헨드폰에 스페셜포스 어플리케이션을 설치합니다.
 4. push_up.ino 파일을 다운받아 아두이노에 업로드합니다.
 5. 아두이노 나노에 외부 전원을 연결한 후 운동을 하면서 핸드폰에 값이 제대로 넘어오는지 확인합니다.
+
+## How to use (사용방법)
