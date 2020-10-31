@@ -17,3 +17,5 @@
 5. 아두이노 나노에 외부 전원을 연결한 후 운동을 하면서 핸드폰에 값이 제대로 넘어오는지 확인합니다.
 
 ## How to use (사용방법)
+
+[![Video Label](https://user-images.githubusercontent.com/26067127/97776342-9568dd80-1baa-11eb-8d65-f70cee4bcb74.png)](https://youtu.be/9tfZ-VvZLKo)
