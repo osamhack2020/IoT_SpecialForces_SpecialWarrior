@@ -17,5 +17,6 @@
 4. push_up.ino 파일을 다운받아 아두이노에 업로드합니다.
 5. 아두이노 나노에 외부 전원을 연결한 후 TFT LCD를 확인하여 제대로 설치가 되었는지 확인합니다.
 
-## How to use (사용법)
-어디에 어떻게 장착하여 사용하는지 그리고 어떤 원리로 작동하는지 설명
+## How to use (사용방법)
+
+[![Video Label](https://user-images.githubusercontent.com/26067127/97776342-9568dd80-1baa-11eb-8d65-f70cee4bcb74.png)](https://youtu.be/NsnOIVOxCOA)
