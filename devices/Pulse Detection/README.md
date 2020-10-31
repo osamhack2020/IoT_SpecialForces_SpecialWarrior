@@ -18,3 +18,4 @@
 5. 손가락을 심박동 센서에 올린 후 tft LCD를 보며 제대로 정보가 나오는지 확인합니다.
 
 ## How to use (사용방법)
+<iframe width="560" height="315" src="https://youtu.be/I8sXVaKv0Qc" frameborder="0" allowfullscreen></iframe>
