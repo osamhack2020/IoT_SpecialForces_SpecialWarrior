@@ -139,7 +139,7 @@ Test account for Demo<br>
         - Potentiometer(가변저항)
         
 - <b>안드로이드 버전</b>
-    - Android 6.0 이상
+    - Android 6.1 이상
 
 - <b>웹브라우저 제한사항</b>
 
@@ -240,6 +240,8 @@ Vue Libraries
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Pulse%20Detection#installation-process-%EC%84%A4%EC%B9%98-%EC%95%88%EB%82%B4">심박동 측정장치</a>
 
 ### app
+- <a href = "https://drive.google.com/file/d/1ko2XrpCIECTucmHoNfU8VKlEZ6U3Yhku/view?usp=sharing">안드로이드 어플리케이션 </a>
+- Test 계정 ID : testaccount / PW : 12341234
 
 ## 6. Getting Started (프로젝트 사용법)
 
