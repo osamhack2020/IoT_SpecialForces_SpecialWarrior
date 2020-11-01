@@ -1,5 +1,5 @@
 # SpecialForces
-[![ORG README](https://img.shields.io/badge/README%20LANGUAGE-ENGLISH-orange?style=for-the-badge)](https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/blob/master/README.md)
+[![ORG README](https://img.shields.io/badge/README%20LANGUAGE-ORIGINAL-orange?style=for-the-badge)](https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/blob/master/README.md)
 [![KOR README](https://img.shields.io/badge/README%20LANGUAGE-KOREAN-orange?style=for-the-badge)](https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/blob/master/README_KR.md)
 [![ENG README](https://img.shields.io/badge/README%20LANGUAGE-ENGLISH-orange?style=for-the-badge)](https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/blob/master/README_EN.md)
 <br>
