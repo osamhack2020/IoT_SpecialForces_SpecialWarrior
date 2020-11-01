@@ -17,4 +17,4 @@ Copyrightⓒ 2020 SpecialWarrior, All rights reserved.</br>
     - vue-router : <a href = "https://raw.githubusercontent.com/osamhack2020/Web_SpecialForces_SpecialWarrior/main/LICENSE">MIT License</a>
     - axios : <a href = "https://raw.githubusercontent.com/osamhack2020/Web_SpecialForces_SpecialWarrior/main/LICENSE">MIT License</a>
     - vuex : <a href = "https://raw.githubusercontent.com/osamhack2020/Web_SpecialForces_SpecialWarrior/main/LICENSE">MIT License</a>
-    - oauth-server-php : <a href = "https://raw.githubusercontent.com/osamhack2020/Web_SpecialForces_SpecialWarrior/main/LICENSE">MIT License</a>
+    - oauth2-server-php : <a href = "https://raw.githubusercontent.com/bshaffer/oauth2-server-php/master/LICENSE">MIT License</a>
