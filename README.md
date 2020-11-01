@@ -1,10 +1,9 @@
-# 국방 헬스케어 솔루션 SpecialForces IoT
-[![KOREAN README](https://img.shields.io/badge/README%20LANGUAGE-KOREAN-orange?style=for-the-badge)](https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/blob/master/README.md)
+[![KOR README](https://img.shields.io/badge/README%20LANGUAGE-KOREAN-orange?style=for-the-badge)](https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/blob/master/README_KR.md)
 [![ENG README](https://img.shields.io/badge/README%20LANGUAGE-ENGLISH-orange?style=for-the-badge)](https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/blob/master/README_EN.md)
 
-## What is SpecialForces?
+## SpecialForces
 <img src="https://user-images.githubusercontent.com/39221443/97781525-67e25b00-1bcf-11eb-9f6f-9472f3435563.gif" width=400 height=160></img><br>
-오픈소스 프로젝트인 <b>SpecialForces</b>는 병사에게 운동과 건강관리의 즐거움을, 간부에게 간단하고 체계적인 관리를 제공하는 <b>병영생활 밀착형 헬스케어 솔루션</b>입니다.
+SpecialForces is a healthcare solution for Ministry of National Defense Soldiers.
 
 ## Manual
 - <b>Git Book</b> [![DOCUMENT](https://img.shields.io/badge/Gitbook-LINK-blue?style=for-the-badge)](https://specialwarrior-specialforces.gitbook.io/specialforces/)
@@ -19,7 +18,7 @@
 - <b>Web & Server</b> <a href = "https://github.com/goraegori"><img src="https://img.shields.io/badge/github-goraegori-brightgreen?style=for-the-badge"></a>
 - <b>Application</b> <a href = "https://github.com/LieutenantKang"><img src="https://img.shields.io/badge/github-LieutenantKang-brightgreen?style=for-the-badge"></a>
 
-## License(저작권 및 사용권 정보)
+## License
 - IoT
     - Adafruit-PN532 : <a href="https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/blob/master/test%20code/Adafruit-PN532/license.txt">BSD License</a>
     - ArduinoThread : <a href = "https://raw.githubusercontent.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/master/test%20code/ArduinoThread/LICENSE.txt">MIT License</a>
