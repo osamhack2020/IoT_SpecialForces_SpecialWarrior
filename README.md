@@ -2,7 +2,7 @@
 
 ## What is SpecialForces?
 <img src="https://user-images.githubusercontent.com/39221443/97781525-67e25b00-1bcf-11eb-9f6f-9472f3435563.gif" width=400 height=160></img><br>
-<b>국방 헬스케어 솔루션 SpecialForces</b>는 단순한 헬스케어 솔루션을 넘어 병사는 발전의 즐거움을, 간부는 체계적 관리를 할 수 있는 <b>병영생활 밀착형 헬스케어 솔루션</b>을 개발하는 프로젝트입니다.
+오픈소스 프로젝트인 <b>SpecialForces</b>는 병사에게 발전의 즐거움을, 간부에게 간단한 체계적 관리를 제공하는 <b>병영생활 밀착형 헬스케어 솔루션</b>입니다.
 
 ## How-to use
 
@@ -29,3 +29,7 @@
     - HX711 : <a href = "https://raw.githubusercontent.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/master/test%20code/HX711%20Library/LICENSE">MIT License</a>
 - App : <a href = "http://www.apache.org/licenses/LICENSE-2.0.txt">Apache 2.0</a>
 - Web : <a href = "https://raw.githubusercontent.com/osamhack2020/Web_SpecialForces_SpecialWarrior/main/LICENSE">MIT License</a>
+
+## Copyright
+
+Copyrightⓒ 2020 SpecialWarrior, All rights reserved.
