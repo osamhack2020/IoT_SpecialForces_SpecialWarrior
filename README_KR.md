@@ -71,7 +71,7 @@ Test account for Demo<br>
 스페셜포스는 대한민국 국방부 국군 장병들을 위한 헬스케어 솔루션입니다.
 ## 1. Intro
 ### 발표영상
-[![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)</br>
+[![Watch the video](https://user-images.githubusercontent.com/26067127/97808474-6cc80d00-1caa-11eb-8570-7fe0c43a2d09.png)](https://youtu.be/XP0wngHPghk)</br>
 
 ### 시연영상
 [![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)</br>
