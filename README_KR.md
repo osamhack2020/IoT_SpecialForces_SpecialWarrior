@@ -67,7 +67,7 @@ Test account for Demo<br>
     </tbody>
 </table>
 
-![1603742156358](https://user-images.githubusercontent.com/26067127/97261793-eb641b00-1862-11eb-9595-28c4e3f7ec9e.jpg)</br>
+<img src="https://user-images.githubusercontent.com/39221443/97781525-67e25b00-1bcf-11eb-9f6f-9472f3435563.gif" width=400 height=160></img><br>
 스페셜포스는 대한민국 국방부 국군 장병들을 위한 헬스케어 솔루션입니다.
 ## 1. Intro
 ### 발표영상
