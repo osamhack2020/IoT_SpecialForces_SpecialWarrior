@@ -1,8 +1,8 @@
-# 국방 헬스케어 솔루션 SpecialForces Web
+# 국방 헬스케어 솔루션 SpecialForces IoT
 
 ## What is SpecialForces?
 <img src="https://user-images.githubusercontent.com/39221443/97781525-67e25b00-1bcf-11eb-9f6f-9472f3435563.gif" width=400 height=160></img><br>
-오픈소스 프로젝트인 <b>SpecialForces</b>는 병사에게 발전의 즐거움을, 간부에게 간단한 체계적 관리를 제공하는 <b>병영생활 밀착형 헬스케어 솔루션</b>입니다.
+오픈소스 프로젝트인 <b>SpecialForces</b>는 병사에게 운동과 건강관리의 즐거움을, 간부에게 간단하고 체계적인 관리를 제공하는 <b>병영생활 밀착형 헬스케어 솔루션</b>입니다.
 
 ## Manual
 - <b>Git Book</b> [![DOCUMENT](https://img.shields.io/badge/Gitbook-LINK-blue?style=for-the-badge)](https://specialwarrior-specialforces.gitbook.io/specialforces/)
