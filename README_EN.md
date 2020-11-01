@@ -265,7 +265,7 @@ Vue Libraries
 
 </details>
 
-#### 상세 설명(클릭시 해당 기기 문서로 이동)
+#### Details
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/push_up">push-ups auto measuring device</a>
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/sit_up">Sit-ups auto measuring device</a>
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Treadmill">Treadmill auto measuring device</a>
@@ -273,7 +273,7 @@ Vue Libraries
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/leg_press">leg-press auto measuring device</a>
 - <a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/tree/master/devices/Pulse%20Detection">Heart rate auto measuring device</a>
 
-### App (화면 켑쳐 + 설명)
+### App
 <Service for Soldiers>
 1. Download and install .APK file
 2. Put your account details and sign up.
@@ -284,7 +284,7 @@ Vue Libraries
 7. You can check details of your recent workout on exercise tab
 8. Workout details will be sent to server when you put your phone down on fitness equipment
 
-### Web (화면 켑쳐 + 설명)
+### Web
 <BackOffice Service for cadre>
 1. Go to <a href = "https://osamhack2020.github.io/Web_SpecialForces_SpecialWarrior"> Backoffice </a> by clicking the link
 2. Sign up with your account details
@@ -295,17 +295,18 @@ Vue Libraries
 7. You can notificate your army by write notice down on 'Notice' page.
 
 
-## 7. Team Information (팀 정보)
+## 7. Team Information
 
-### Team Intro (팀 소개)
+### Team Intro
 
 >Special warriors are the highest grade in the ROK Army's physical fitness class.They must complete at least 72 in 2 minutes of push-ups, at least 86 in 2 minutes of sit-ups, and 12 minutes and 30 seconds of a 3KM run. The name of the special warrior team was created with the hope that all soldiers can have healthy stamina like the special warrior.
 
-### Team member (팀 멤버 소개)
+### Team member
 - <b>PM & IoT</b> Park SungSoo (skyinbss@gmail.com), Github Id: <a href = "https://github.com/Moerai">KrToTo</a>
 - <b>Web & Server</b> Park SeongCheol (gorae02@gmail.com), Github Id: <a href = "https://github.com/goraegori">goraegori</a>
 - <b>Application</b> Kang Chan (koxx1107@gmail.com), Github Id: <a href = "https://github.com/LieutenantKang">Lieutenant Kang</a>
 
-## 8. Copyleft / End User License(저작권 및 사용권 정보)
-This work is dual-licensed under * [MIT](https://github.com/SpecailForces/SpecialForces-IoT/blob/master/MIT_license.md) AND * [Apache License 2.0](https://github.com/SpecailForces/SpecialForces-IoT/blob/master/Apache_license.md).</br>
-You must comply with all this licenses if you use this work.</br>
+## 8. Copyleft / End User License
+<a href = "https://github.com/osamhack2020/IoT_SpecialForces_SpecialWarrior/blob/master/LICENSE.md"><b>OPEN SOURCE LICENSE</b></a>
+</br>
+Copyrightⓒ 2020 SpecialWarrior, All rights reserved.
