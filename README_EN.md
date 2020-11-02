@@ -71,10 +71,10 @@ Test account for Demo<br>
 SpecialForces is a healthcare solution for Ministry of National Defense Soldiers.</br>
 ## 1. Intro
 ### Presentation Video
-[![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)</br>
+[![Watch the video](https://user-images.githubusercontent.com/26067127/97930995-0a593480-1db0-11eb-887b-70d16b0724f2.png)](https://youtu.be/XP0wngHPghk)</br>
 
 ### Demo Video
-[![Watch the video](https://img.youtube.com/vi/LjX3eVQdIyk/0.jpg)](https://www.youtube.com/watch?time_continue=117&v=LjX3eVQdIyk)</br>
+[![Watch the video](https://user-images.githubusercontent.com/26067127/97930995-0a593480-1db0-11eb-887b-70d16b0724f2.png)](https://youtu.be/vI1kC01fLqY)</br>
 
 ### Project Intro (Introduction & Service Flow)
 ![Service Flowchart](https://user-images.githubusercontent.com/26067127/97585054-105fb600-1a3c-11eb-97e5-4d7c8955f807.png)
