@@ -18,4 +18,4 @@
 
 ## How to use (사용방법)
 
-[![Video Label](https://user-images.githubusercontent.com/26067127/97776342-9568dd80-1baa-11eb-8d65-f70cee4bcb74.png)](https://youtu.be/9tfZ-VvZLKo)
+[![Video Label](https://user-images.githubusercontent.com/26067127/97776342-9568dd80-1baa-11eb-8d65-f70cee4bcb74.png)](https://youtu.be/twYYoOGOedE)
