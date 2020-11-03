@@ -20,4 +20,4 @@ You can adjust the speed through the radio button and save the time in the appli
 
 ## How to use (사용방법)
 
-[![Video Label](https://user-images.githubusercontent.com/26067127/97776342-9568dd80-1baa-11eb-8d65-f70cee4bcb74.png)](https://youtu.be/r36CFTzhpHg)
+[![Video Label](https://user-images.githubusercontent.com/26067127/97776342-9568dd80-1baa-11eb-8d65-f70cee4bcb74.png)](https://youtu.be/v0gC_SUcLs0)
