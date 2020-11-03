@@ -16,4 +16,4 @@
 5. 아두이노 나노에 외부 전원을 연결한 후 TFT LCD를 확인하여 제대로 설치가 되었는지 확인합니다.
 
 ## How to use (사용방법)
-[![Video Label](https://user-images.githubusercontent.com/26067127/97776342-9568dd80-1baa-11eb-8d65-f70cee4bcb74.png)](https://youtu.be/kjt80NTsp38)
+[![Video Label](https://user-images.githubusercontent.com/26067127/97776342-9568dd80-1baa-11eb-8d65-f70cee4bcb74.png)](https://youtu.be/GDDw9sW6-sw)
